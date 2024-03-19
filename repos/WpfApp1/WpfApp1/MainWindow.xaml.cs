@@ -38,7 +38,7 @@ namespace WpfApp1
             Zvire zvire = (Zvire)List.SelectedItem;
             StringBuilder sb = new StringBuilder();
             sb.AppendLine($"Jméno: {zvire.Jmeno}");
-            sb.AppendLine($"Počet noh: {zvire.Nohy}");
+            sb.AppendLine($"Počet nohou: {zvire.Nohy}");
             sb.AppendLine($"Barva: {zvire.Barva}");
             sb.AppendLine($"Umí látat: {zvire.Leta}");
 
@@ -58,7 +58,7 @@ namespace WpfApp1
             
             
 
-            //MessageBox.Show($"Jméno: {zvire.Jmeno}\n Zvíře: {zvire.GetType().Name}\n Počet nohou: {zvire.Nohy}\n Umí létat: {zvire.Leta}\n Barva: {zvire.Barva}\n Zvuk: {zvire.VydejZvuk()}");
+            
         }
     }
 
